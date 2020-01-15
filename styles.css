@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-wrapper {
+    background: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(43, 121, 145, 0.849);
+    background-blend-mode: multiply;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron', 'Arial', sans-serif;
+}
+
+h1, h2 {
+    color: white;
+}
+
+#encrypted-word {
+    color: white;
+}
+
+.word-area, 
+.offset-area, 
+.encrypted-area,
+.button-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offset-area, 
+.encrypted-area,
+.button-area {
+    padding-top: 1.5rem;
+}
+
+#submit-button {
+    padding: 1rem;
+}
+
