@@ -18,8 +18,14 @@
     font-family: 'Orbitron', 'Arial', sans-serif;
 }
 
-h1, h2 {
+pre {
+    white-space: pre-wrap;
+}
+
+h1 {
     color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 #encrypted-word {
@@ -33,6 +39,7 @@ h1, h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0.75rem;
 }
 
 .offset-area, 
@@ -41,7 +48,38 @@ h1, h2 {
     padding-top: 1.5rem;
 }
 
+input, 
 #submit-button {
-    padding: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    width: 100%;
+}
+
+input {
+    font-family: 'Orbitron', 'Arial', sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+    border: none;
+    background: rgba(255,255,255,0.75);
+    box-shadow: 0px 0px 3px 5px white;
+}
+
+#submit-button {
+    border-radius: 0.5rem;
+    color:white;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-family: 'Orbitron', 'Arial', sans-serif;
+    background: rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 3px pink;
+    margin: 2rem 0 2rem 0;
+}
+
+#submit-button:hover {
+    background: rgb(255, 192, 203, 0.5);
+    box-shadow: 0px 0px 3px 3px white;
+    cursor: pointer;
+    transition: all .1s ease-in;
+    transform: scale(1.1);
 }
 
